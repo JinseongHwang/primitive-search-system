@@ -31,10 +31,10 @@ public class Search_System {
 		int input = 0; // 입력 번호
 		boolean alreadySelected = false; // 내부에서 동작 수행이 결정된 경우 입력받지 않기 위해 존재
 		while(true) {
-			System.out.println("=====================================================");
-			System.out.println("안녕하세요. 검색 시스템에 오신 것을 환영합니다 ^_^");
-			System.out.println("1: 인덱싱단계  2: 질의문입력  3: 종료");
 			if(!alreadySelected) { // 내부에서 결정되지 않았다면 입력받음
+				System.out.println("=====================================================");
+				System.out.println("안녕하세요. 검색 시스템에 오신 것을 환영합니다 ^_^");
+				System.out.println("1: 인덱싱단계  2: 질의문입력  3: 종료");
 				System.out.print("==> ");
 				try {
 					input = systemScanner.nextInt();
